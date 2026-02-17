@@ -1,7 +1,6 @@
 "use client";
 
-import { useRef } from "react";
-import { motion, useScroll, useTransform } from "framer-motion";
+import { motion, useScroll, useTransform, type MotionValue } from "framer-motion";
 
 // SVG icon components — personalized easter eggs
 const CricketBat = () => (
@@ -149,13 +148,8 @@ const iconPlacements = [
   { iconIdx: 0, top: 8550, left: "4%",   size: 32, speed: -0.12, rotate: 10 },
 ];
 
-// Individual icon with scroll-based parallax
-function ParallaxIcon({ iconIdx, top, left, size, speed, rotate }: typeof iconPlacements[number]) {
-  const ref = useRef<HTMLDivElement>(null);
-  const { scrollY } = useScroll();
-
-  // Parallax: icon moves at `speed` rate relative to scroll
-  // e.g. speed=-0.2 means for every 100px scrolled, icon shifts 20px upward
+// Individual icon with scroll-based parallax — receives shared scrollY
+function ParallaxIcon({ iconIdx, top, left, size, speed, rotate, scrollY }: typeof iconPlacements[number] & { scrollY: MotionValue<number> }) {
   const y = useTransform(scrollY, [0, 9000], [0, 9000 * speed]);
   const r = useTransform(scrollY, [0, 9000], [0, rotate * 3]);
 
@@ -163,7 +157,6 @@ function ParallaxIcon({ iconIdx, top, left, size, speed, rotate }: typeof iconPl
 
   return (
     <motion.div
-      ref={ref}
       style={{
         position: "absolute",
         top,
@@ -181,10 +174,12 @@ function ParallaxIcon({ iconIdx, top, left, size, speed, rotate }: typeof iconPl
 }
 
 export default function FloatingIcons() {
+  const { scrollY } = useScroll();
+
   return (
     <div className="absolute inset-0 w-full pointer-events-none overflow-hidden" style={{ zIndex: 1 }} aria-hidden="true">
       {iconPlacements.map((item, i) => (
-        <ParallaxIcon key={i} {...item} />
+        <ParallaxIcon key={i} {...item} scrollY={scrollY} />
       ))}
     </div>
   );
