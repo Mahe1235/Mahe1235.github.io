@@ -11,6 +11,16 @@ export interface Project {
 
 export const projects: Project[] = [
   {
+    title: "ShowTrackr — Personal TV Show Tracker",
+    emoji: "🎬",
+    category: "Side Project",
+    categoryColor: "bg-orange-100 text-orange-700",
+    tags: ["Next.js", "Supabase", "TVMaze API", "TypeScript"],
+    summary:
+      "A personal TV show tracking web app. Search thousands of shows, track your watchlist with statuses, and discover trending content — all free, no ads, built with Next.js and Supabase.",
+    slug: "showtrackr",
+  },
+  {
     title: "Optimus Family Hub",
     emoji: "🏦",
     category: "Case Study",
@@ -79,15 +89,5 @@ export const projects: Project[] = [
     summary:
       "Developed a GTM strategy worth ~$100 Mn for Atom, a wellness health-tech startup. Utilized JTBD and Design Thinking principles, assisting in a 25% WoW increase in downloads from 5K to 150K.",
     slug: "atom",
-  },
-  {
-    title: "ShowTrackr — Personal TV Show Tracker",
-    emoji: "🎬",
-    category: "Side Project",
-    categoryColor: "bg-orange-100 text-orange-700",
-    tags: ["Next.js", "Supabase", "TVMaze API", "TypeScript"],
-    summary:
-      "A personal TV show tracking web app. Search thousands of shows, track your watchlist with statuses, and discover trending content — all free, no ads, built with Next.js and Supabase.",
-    slug: "showtrackr",
   },
 ];
