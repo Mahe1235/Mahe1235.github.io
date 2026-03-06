@@ -7,6 +7,7 @@ export interface Project {
   summary: string;
   notionUrl?: string;
   slug?: string;
+  liveUrl?: string;
 }
 
 export const projects: Project[] = [
@@ -19,6 +20,7 @@ export const projects: Project[] = [
     summary:
       "A personal TV show tracking web app. Search thousands of shows, track your watchlist with statuses, and discover trending content — all free, no ads, built with Next.js and Supabase.",
     slug: "showtrackr",
+    liveUrl: "https://show-trackr-ten.vercel.app/",
   },
   {
     title: "Optimus Family Hub",

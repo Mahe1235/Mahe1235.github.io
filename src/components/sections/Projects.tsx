@@ -60,15 +60,31 @@ export default function Projects() {
                         {project.summary}
                       </p>
 
-                      <div className="flex flex-wrap gap-1.5 mt-auto pt-4 border-t border-border/50">
-                        {project.tags.map((tag) => (
-                          <span
-                            key={tag}
-                            className="text-xs px-2.5 py-1 rounded-full bg-section-alt text-muted/80 font-medium"
+                      <div className="mt-auto pt-4 border-t border-border/50 space-y-3">
+                        <div className="flex flex-wrap gap-1.5">
+                          {project.tags.map((tag) => (
+                            <span
+                              key={tag}
+                              className="text-xs px-2.5 py-1 rounded-full bg-section-alt text-muted/80 font-medium"
+                            >
+                              {tag}
+                            </span>
+                          ))}
+                        </div>
+
+                        {project.liveUrl && (
+                          <a
+                            href={project.liveUrl}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            onClick={(e) => e.stopPropagation()}
+                            className="inline-flex items-center gap-1 text-xs font-medium text-primary hover:text-secondary transition-colors duration-200"
                           >
-                            {tag}
-                          </span>
-                        ))}
+                            <span className="w-1.5 h-1.5 rounded-full bg-green-500 animate-pulse" />
+                            Live App
+                            <ArrowUpRight size={12} />
+                          </a>
+                        )}
                       </div>
                     </>
                   );
