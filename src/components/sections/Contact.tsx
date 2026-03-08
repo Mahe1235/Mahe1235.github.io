@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Linkedin, Twitter, Instagram, Mail, ArrowUpRight } from "lucide-react";
+import { Linkedin, Twitter, Github, Mail, ArrowUpRight } from "lucide-react";
 import { personal } from "@/data/personal";
 
 const contactLinks = [
@@ -20,11 +20,11 @@ const contactLinks = [
     color: "hover:bg-sky-50 hover:text-sky-600 hover:border-sky-200",
   },
   {
-    label: "Instagram",
-    href: personal.social.instagram,
-    icon: Instagram,
-    handle: "@wanderer.on.wheels",
-    color: "hover:bg-pink-50 hover:text-pink-600 hover:border-pink-200",
+    label: "GitHub",
+    href: personal.social.github,
+    icon: Github,
+    handle: "@Mahe1235",
+    color: "hover:bg-neutral-50 hover:text-neutral-600 hover:border-neutral-200",
   },
   {
     label: "Email",
