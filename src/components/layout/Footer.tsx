@@ -1,4 +1,4 @@
-import { Linkedin, Twitter, Instagram, Mail, Heart } from "lucide-react";
+import { Linkedin, Twitter, Github, Mail, Heart } from "lucide-react";
 import { personal } from "@/data/personal";
 
 const stats = [
@@ -31,7 +31,7 @@ export default function Footer() {
           {[
             { href: personal.social.linkedin, icon: Linkedin, label: "LinkedIn" },
             { href: personal.social.twitter, icon: Twitter, label: "Twitter" },
-            { href: personal.social.instagram, icon: Instagram, label: "Instagram" },
+            { href: personal.social.github, icon: Github, label: "GitHub" },
             { href: `mailto:${personal.social.email}`, icon: Mail, label: "Email" },
           ].map((link) => (
             <a
