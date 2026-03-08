@@ -86,22 +86,11 @@ const Book = () => (
 
 const allIcons = [CricketBat, Headphones, Coffee, Gamepad, Globe, CodeBrackets, Rocket, Lightbulb, Mountain, Book];
 
-// ~34 icons scattered across the page with ~250px avg spacing
-// speed: parallax multiplier — each icon drifts at a different rate for depth
+// Icons scattered from Projects section onward — hero and about areas left clean
 // Actual sections: Hero 0-688, About 688-1515, Projects 1515-3039,
 // Skills 3039-3733, Journey 3733-5674, Now 5674-6384, Reads 6384-7105,
 // Podcasts 7105-7644, Education 7644-8158, Contact 8158-8790
 const iconPlacements = [
-  // Hero (0–688)
-  { iconIdx: 0, top: 80,   left: "4%",   size: 36, speed: -0.15, rotate: 12 },
-  { iconIdx: 6, top: 350,  left: "90%",  size: 32, speed: -0.25, rotate: -8 },
-  { iconIdx: 4, top: 580,  left: "92%",  size: 28, speed: -0.1,  rotate: 5 },
-
-  // About (688–1515)
-  { iconIdx: 2, top: 800,  left: "3%",   size: 34, speed: -0.2,  rotate: -10 },
-  { iconIdx: 1, top: 1050, left: "91%",  size: 32, speed: -0.12, rotate: 8 },
-  { iconIdx: 7, top: 1300, left: "5%",   size: 30, speed: -0.22, rotate: -6 },
-
   // Projects (1515–3039)
   { iconIdx: 3, top: 1550, left: "89%",  size: 34, speed: -0.18, rotate: 14 },
   { iconIdx: 5, top: 1800, left: "3%",   size: 32, speed: -0.15, rotate: -12 },
