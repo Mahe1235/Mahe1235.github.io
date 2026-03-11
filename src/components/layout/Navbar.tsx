@@ -6,9 +6,8 @@ import { Menu, X } from "lucide-react";
 
 const navLinks = [
   { label: "About", href: "#about" },
-  { label: "Projects", href: "#projects" },
+  { label: "What I've Built", href: "#projects" },
   { label: "Journey", href: "#journey" },
-  { label: "Now", href: "#now" },
   { label: "Reads", href: "#reads" },
   { label: "Contact", href: "#contact" },
 ];
@@ -49,7 +48,7 @@ export default function Navbar() {
       initial={{ y: -100 }}
       animate={{ y: 0 }}
       transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
+      className={`md:fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
         scrolled
           ? "bg-background/70 backdrop-blur-xl shadow-[0_1px_3px_rgba(0,0,0,0.04)] border-b border-border/50"
           : "bg-transparent"

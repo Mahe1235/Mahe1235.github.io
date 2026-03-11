@@ -86,25 +86,11 @@ const Book = () => (
 
 const allIcons = [CricketBat, Headphones, Coffee, Gamepad, Globe, CodeBrackets, Rocket, Lightbulb, Mountain, Book];
 
-// Icons scattered from Projects section onward — hero and about areas left clean
-// Actual sections: Hero 0-688, About 688-1515, Projects 1515-3039,
-// Skills 3039-3733, Journey 3733-5674, Now 5674-6384, Reads 6384-7105,
-// Podcasts 7105-7644, Education 7644-8158, Contact 8158-8790
+// Icons scattered from Journey onward — hero, about, and projects areas left clean
+// Page order: Hero 0-688, About 688-1800, What I've Built 1800-3000,
+// Journey 3000+, Reads, Podcasts, Education, Contact
 const iconPlacements = [
-  // Projects (1515–3039)
-  { iconIdx: 3, top: 1550, left: "89%",  size: 34, speed: -0.18, rotate: 14 },
-  { iconIdx: 5, top: 1800, left: "3%",   size: 32, speed: -0.15, rotate: -12 },
-  { iconIdx: 8, top: 2050, left: "90%",  size: 30, speed: -0.25, rotate: 6 },
-  { iconIdx: 0, top: 2300, left: "4%",   size: 28, speed: -0.1,  rotate: 10 },
-  { iconIdx: 9, top: 2550, left: "92%",  size: 34, speed: -0.2,  rotate: -8 },
-  { iconIdx: 6, top: 2800, left: "3%",   size: 30, speed: -0.18, rotate: 15 },
-
-  // Skills (3039–3733)
-  { iconIdx: 2, top: 3050, left: "88%",  size: 32, speed: -0.12, rotate: -5 },
-  { iconIdx: 5, top: 3300, left: "91%",  size: 34, speed: -0.22, rotate: 8 },
-  { iconIdx: 4, top: 3550, left: "4%",   size: 30, speed: -0.15, rotate: -10 },
-
-  // Journey (3733–5674)
+  // Journey (starts ~3000)
   { iconIdx: 1, top: 3800, left: "90%",  size: 28, speed: -0.2,  rotate: 12 },
   { iconIdx: 7, top: 4050, left: "3%",   size: 34, speed: -0.18, rotate: -6 },
   { iconIdx: 0, top: 4300, left: "89%",  size: 32, speed: -0.25, rotate: 10 },
@@ -114,12 +100,7 @@ const iconPlacements = [
   { iconIdx: 6, top: 5300, left: "90%",  size: 32, speed: -0.22, rotate: 12 },
   { iconIdx: 9, top: 5550, left: "4%",   size: 30, speed: -0.18, rotate: -8 },
 
-  // Now (5674–6384)
-  { iconIdx: 5, top: 5800, left: "91%",  size: 34, speed: -0.15, rotate: 10 },
-  { iconIdx: 7, top: 6050, left: "3%",   size: 30, speed: -0.25, rotate: -6 },
-  { iconIdx: 4, top: 6300, left: "88%",  size: 32, speed: -0.12, rotate: 8 },
-
-  // Reads (6384–7105)
+  // Reads
   { iconIdx: 1, top: 6550, left: "4%",   size: 32, speed: -0.2,  rotate: -12 },
   { iconIdx: 0, top: 6800, left: "90%",  size: 30, speed: -0.18, rotate: 6 },
   { iconIdx: 8, top: 7050, left: "3%",   size: 28, speed: -0.15, rotate: 10 },
