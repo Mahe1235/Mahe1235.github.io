@@ -29,8 +29,9 @@ export const personal = {
   ],
   howIWork: [
     "I like starting with data and ending with users. Numbers tell you what's happening; conversations tell you why. I've learned to resist jumping into solutions before understanding the problem properly — sometimes the hard way. I have strong opinions about products, but I try to hold them loosely enough to change my mind when the evidence says I should.",
-    "My everyday stack: Claude for research and thinking through specs, Claude Code for prototyping, Obsidian for building a second brain, and the usual — Figma, SQL, Notion. I think the best PMs don't just build — they build the right thing at the right time. AI makes the building part easier. Getting the judgment right is where the great PMs live, and that's what I'm striving for.",
+    "My everyday stack: Claude for research and thinking through specs, Claude Code for prototyping, Obsidian for building a second brain, and the usual — Figma, SQL, Notion.",
   ],
+  pmBelief: "The best PMs don't just build — they build the right thing at the right time. AI makes the building part easier. Getting the judgment right is where the great PMs live, and that's what I'm striving for.",
   traits: [],
   social: {
     linkedin: "https://www.linkedin.com/in/mahendrabreddy/",

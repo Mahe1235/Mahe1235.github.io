@@ -46,7 +46,7 @@ export default function About() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.25, duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
-            className="mb-2"
+            className="mb-6"
           >
             <p className="text-xs font-semibold uppercase tracking-widest text-primary/60 mb-3">
               How I work
@@ -55,6 +55,20 @@ export default function About() {
               {personal.howIWork.map((paragraph, i) => (
                 <p key={i}>{paragraph}</p>
               ))}
+            </div>
+          </motion.div>
+
+          {/* PM belief — highlighted callout */}
+          <motion.div
+            initial={{ opacity: 0, y: 16 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ delay: 0.35, duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
+          >
+            <div className="pl-4 border-l-2 border-primary/50">
+              <p className="text-base md:text-lg text-foreground/80 leading-relaxed font-medium">
+                {personal.pmBelief}
+              </p>
             </div>
           </motion.div>
 
