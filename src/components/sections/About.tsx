@@ -22,52 +22,41 @@ export default function About() {
           </h2>
           <div className="h-1 w-16 rounded-full bg-gradient-to-r from-primary via-secondary to-highlight mb-10" />
 
-          {/* Career paragraph */}
-          <div className="space-y-5 text-lg md:text-xl text-muted leading-relaxed">
-            {personal.bio.map((paragraph, i) => (
-              <motion.p
-                key={i}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ delay: i * 0.15, duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
-              >
-                {paragraph}
-              </motion.p>
-            ))}
-          </div>
-
-          {/* Visual break — signals new thought, not a new section */}
+          {/* Background */}
           <motion.div
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            transition={{ delay: 0.2, duration: 0.6 }}
-            className="flex items-center gap-3 my-10"
+            transition={{ delay: 0.1, duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
+            className="mb-10"
           >
-            <div className="flex-1 h-px bg-border/40" />
-            <div className="flex gap-1.5">
-              <span className="w-1.5 h-1.5 rounded-full bg-primary/25" />
-              <span className="w-1.5 h-1.5 rounded-full bg-primary/25" />
-              <span className="w-1.5 h-1.5 rounded-full bg-primary/25" />
+            <p className="text-xs font-semibold uppercase tracking-widest text-primary/60 mb-3">
+              Background
+            </p>
+            <div className="space-y-4 text-base md:text-lg text-muted leading-relaxed">
+              {personal.bio.map((paragraph, i) => (
+                <p key={i}>{paragraph}</p>
+              ))}
             </div>
-            <div className="flex-1 h-px bg-border/40" />
           </motion.div>
 
-          {/* How I Work paragraphs */}
-          <div className="space-y-5 text-lg md:text-xl text-muted leading-relaxed">
-            {personal.howIWork.map((paragraph, i) => (
-              <motion.p
-                key={i}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ delay: i * 0.15, duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
-              >
-                {paragraph}
-              </motion.p>
-            ))}
-          </div>
+          {/* How I Work */}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ delay: 0.25, duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
+            className="mb-2"
+          >
+            <p className="text-xs font-semibold uppercase tracking-widest text-primary/60 mb-3">
+              How I work
+            </p>
+            <div className="space-y-4 text-base md:text-lg text-muted leading-relaxed">
+              {personal.howIWork.map((paragraph, i) => (
+                <p key={i}>{paragraph}</p>
+              ))}
+            </div>
+          </motion.div>
 
           {/* Resume download */}
           <motion.div
