@@ -82,7 +82,8 @@ export default function Hero() {
           </h1>
         </motion.div>
 
-        {/* PM typewriter — static prefix + cycling phrases */}
+        {/* PM typewriter — static prefix + cycling phrases
+            Mobile: prefix on its own line, phrase wraps below (block → inline at sm+) */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -90,7 +91,7 @@ export default function Hero() {
           className="mb-4"
         >
           <p className="text-xl sm:text-2xl md:text-3xl text-muted/80">
-            a PM who is&hellip;{" "}
+            <span className="block sm:inline">a PM who is&hellip;</span>{" "}
             <TypewriterText
               words={shuffledPhrases}
               className="text-primary font-semibold"
@@ -98,26 +99,26 @@ export default function Hero() {
           </p>
         </motion.div>
 
-        {/* Credential tags */}
+        {/* Credential tags — extra bottom space before one-liner */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.75, duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
-          className="mb-5"
+          className="mb-7"
         >
           <p className="text-sm sm:text-base text-muted/50 tracking-wide">
             Fintech &middot; B2B SaaS &middot; 8+ Years &middot; IIM Ahmedabad
           </p>
         </motion.div>
 
-        {/* One-liner — personal aside */}
+        {/* One-liner — personal aside, readable on mobile (higher contrast, normal weight) */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.85, duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
           className="mb-10"
         >
-          <p className="text-base sm:text-lg text-muted/50 font-light">
+          <p className="text-base sm:text-lg text-muted/70 font-normal">
             Lately, AI has been the most fun part of the job.
           </p>
         </motion.div>
