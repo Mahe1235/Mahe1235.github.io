@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { ArrowUpRight, ArrowRight, ChevronDown } from "lucide-react";
+import { ArrowUpRight, ArrowRight, ChevronDown, Github } from "lucide-react";
 import Link from "next/link";
 import TiltCard from "@/components/ui/TiltCard";
 import { projects } from "@/data/projects";
@@ -85,19 +85,33 @@ export default function Projects() {
                             </span>
                           ))}
                         </div>
-                        {project.liveUrl && (
-                          <a
-                            href={project.liveUrl}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            onClick={(e) => e.stopPropagation()}
-                            className="inline-flex items-center gap-1 text-xs font-medium text-primary hover:text-secondary transition-colors duration-200"
-                          >
-                            <span className="w-1.5 h-1.5 rounded-full bg-green-500 animate-pulse" />
-                            Live App
-                            <ArrowUpRight size={12} />
-                          </a>
-                        )}
+                        <div className="flex items-center gap-3">
+                          {project.liveUrl && (
+                            <a
+                              href={project.liveUrl}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              onClick={(e) => e.stopPropagation()}
+                              className="inline-flex items-center gap-1 text-xs font-medium text-primary hover:text-secondary transition-colors duration-200"
+                            >
+                              <span className="w-1.5 h-1.5 rounded-full bg-green-500 animate-pulse" />
+                              Live App
+                              <ArrowUpRight size={12} />
+                            </a>
+                          )}
+                          {project.githubUrl && (
+                            <a
+                              href={project.githubUrl}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              onClick={(e) => e.stopPropagation()}
+                              className="inline-flex items-center gap-1 text-xs font-medium text-muted/60 hover:text-foreground transition-colors duration-200"
+                            >
+                              <Github size={12} strokeWidth={1.5} />
+                              GitHub
+                            </a>
+                          )}
+                        </div>
                       </div>
                     </>
                   );

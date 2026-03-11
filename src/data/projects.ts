@@ -8,11 +8,25 @@ export interface Project {
   notionUrl?: string;
   slug?: string;
   liveUrl?: string;
+  githubUrl?: string;
   type: "main" | "case-study";
 }
 
 export const projects: Project[] = [
   // ── Main cards (AI builds & side projects) ──────────────────────────────────
+  {
+    title: "ShowTrackr",
+    emoji: "🎬",
+    category: "Side Project",
+    categoryColor: "bg-orange-100 text-orange-700",
+    tags: ["Next.js", "Supabase", "TVMaze API", "TypeScript"],
+    summary:
+      "A simple app to track TV shows and what you're watching. Nothing groundbreaking — just a thing I wanted and decided to build.",
+    slug: "showtrackr",
+    liveUrl: "https://show-trackr-ten.vercel.app/",
+    githubUrl: "https://github.com/Mahe1235/ShowTrackr",
+    type: "main",
+  },
   {
     title: "DEDUCTION: Text-Based Murder Mystery",
     emoji: "🔍",
@@ -22,6 +36,7 @@ export const projects: Project[] = [
     summary:
       "A murder mystery game powered by LLMs — you interrogate AI suspects to solve the case. Built it to learn how LLMs handle open-ended conversation and how to keep them in character. Turns out, prompt engineering for a game is a surprisingly good way to learn prompt engineering for everything else.",
     slug: "deduction-murder-mystery",
+    githubUrl: "https://github.com/Mahe1235/murder-mystery",
     type: "main",
   },
   {
@@ -33,18 +48,7 @@ export const projects: Project[] = [
     summary:
       "A multiplayer Mafia game I built after not writing code for 5 years. Used Cursor and Lovable to go from idea to working game in a weekend. This was the project that convinced me PMs who can build with AI tools have a real edge.",
     slug: "mafia-multiplayer-game",
-    type: "main",
-  },
-  {
-    title: "ShowTrackr",
-    emoji: "🎬",
-    category: "Side Project",
-    categoryColor: "bg-orange-100 text-orange-700",
-    tags: ["Next.js", "Supabase", "TVMaze API", "TypeScript"],
-    summary:
-      "A simple app to track TV shows and what you're watching. Nothing groundbreaking — just a thing I wanted and decided to build.",
-    slug: "showtrackr",
-    liveUrl: "https://show-trackr-ten.vercel.app/",
+    githubUrl: "https://github.com/Mahe1235/mafia-game",
     type: "main",
   },
 
