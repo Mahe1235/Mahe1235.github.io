@@ -11,14 +11,14 @@ export const experiences: Experience[] = [
     role: "Senior Product Manager",
     period: "Mar 2026 – Present",
     description:
-      "Own Supply Operations, leading the weighbridge integration, truck telematics and plant utilisation modules. Integrated weighbridges and truck GPS across 9 plants, putting 13,500 dispatches a month on live tracking. Launched the DaaS project health dashboard in one week, ideation to production, live on stage at the launch of India's first Developer-as-a-Service platform.",
+      "Own Supply Operations, leading the weighbridge integration, truck telematics and plant utilisation modules. Integrated weighbridges and truck GPS across 9 plants, putting 13,500 dispatches a month on live tracking. Launched the DaaS project health dashboard in one week, live on stage at the launch of India's first Developer-as-a-Service platform.",
   },
   {
     company: "Nextuple Inc",
     role: "Product Manager",
     period: "Feb 2024 – Mar 2026",
     description:
-      "Built Capacity Edge as a configurable platform rather than a one-off. Took a national furniture retailer from 60% to 76% OTIF, then onboarded two more clients with no additional engineering. Led the Order Orchestrator module and shipped Order Promising for one of the UK's largest grocery retailers.",
+      "Led the Capacity module for the internal OMS product; managed the implementation rollout for a major national furniture retailer. Led the Order Orchestrator module, revamping the system with a returns flow and metrics dashboard, and implemented Order Promising for one of the UK's largest grocery retailers.",
   },
   {
     company: "Paytm",

@@ -26,7 +26,7 @@ export const personal = {
   ],
   bio: [
     "I got into product by building things first — started as an Android dev, helped build a logistics startup from zero, then went to IIM Ahmedabad. Since then I've doubled subscription revenue at Paytm Money, launched a loyalty program to 10 million Paytm users, and built a capacity management platform from scratch at Nextuple.",
-    "I'm now at ARIS, where I own Supply Operations — weighbridge integration, truck telematics and plant utilisation. It used to run on phone calls and Excel. Now 13,500 dispatches a month across 9 plants are on live tracking, and I'm working on generating challans off the weighbridge so billing doesn't wait a month for paper to arrive.",
+    "I'm now at ARIS, running Supply Operations — weighbridges, truck telematics, plant utilisation. It all used to run on phone calls and Excel. Now 13,500 dispatches a month across 9 plants are tracked live, and I'm working on generating challans straight off the weighbridge so billing doesn't wait a month for paper.",
   ],
   howIWork: [
     "I like starting with data and ending with users. Numbers tell you what's happening; conversations tell you why. I've learned to resist jumping into solutions before understanding the problem properly — sometimes the hard way. I have strong opinions about products, but I try to hold them loosely enough to change my mind when the evidence says I should.",
