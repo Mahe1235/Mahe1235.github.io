@@ -21,7 +21,7 @@ export const projects: Project[] = [
     categoryColor: "bg-orange-100 text-orange-700",
     tags: ["Next.js", "Supabase", "TVMaze API", "TypeScript"],
     summary:
-      "A simple app to track TV shows and what you're watching. Nothing groundbreaking — just a thing I wanted and decided to build.",
+      "A simple app to track TV shows and what you're watching. Nothing groundbreaking. Just a thing I wanted and decided to build.",
     slug: "showtrackr",
     liveUrl: "https://show-trackr-ten.vercel.app/",
     githubUrl: "https://github.com/Mahe1235/ShowTrackr",
@@ -34,7 +34,7 @@ export const projects: Project[] = [
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["LLM", "AI", "Game"],
     summary:
-      "A murder mystery game powered by LLMs — you interrogate AI suspects to solve the case. Built it to learn how LLMs handle open-ended conversation and how to keep them in character. Turns out, prompt engineering for a game is a surprisingly good way to learn prompt engineering for everything else.",
+      "A murder mystery game powered by LLMs. You interrogate AI suspects to solve the case. Built it to learn how LLMs handle open-ended conversation and how to keep them in character. Turns out, prompt engineering for a game is a surprisingly good way to learn prompt engineering for everything else.",
     slug: "deduction-murder-mystery",
     githubUrl: "https://github.com/Mahe1235/murder-mystery",
     type: "main",
@@ -60,7 +60,7 @@ export const projects: Project[] = [
     categoryColor: "bg-blue-100 text-blue-700",
     tags: ["Neobanking", "User Research", "Product Strategy"],
     summary:
-      "Product strategy for a neobanking app expanding from individual to family banking. Developed comprehensive user research, market analysis, phased implementation roadmap, and validation frameworks for multi-generational Indian households.",
+      "How a neobank moves from individual accounts to family ones, for multi-generational Indian households. Research, prioritisation, a phased roadmap, PRDs and working prototypes. Built solo in 6 hours with Claude, Perplexity and v0.",
     slug: "optimus-family-hub",
     type: "case-study",
   },
@@ -71,7 +71,7 @@ export const projects: Project[] = [
     categoryColor: "bg-blue-100 text-blue-700",
     tags: ["Onboarding", "User Segments", "JTBD"],
     summary:
-      "Enhanced user onboarding for Docsumo by identifying target audience, creating user segments based on document types, and defining the JTBD for personas during the trial period.",
+      "Getting Docsumo's trial users to actually activate. Segmented them by the documents they process, then worked out what each one is really hiring the trial to do.",
     slug: "onboarding-on-docsumo",
     type: "case-study",
   },
@@ -82,7 +82,7 @@ export const projects: Project[] = [
     categoryColor: "bg-blue-100 text-blue-700",
     tags: ["EdTech", "Product Roadmap", "User Research"],
     summary:
-      "Launched a photography vertical at Pixical targeting beginner hobbyists. A three-month roadmap addressing pain points like structured guidance and personalized feedback.",
+      "A photography vertical for beginners who want to get better but don't know what to practise. Three-month roadmap built around structured guidance, personalised feedback and something to show for it.",
     slug: "photography-vertical-pixical",
     type: "case-study",
   },
@@ -93,7 +93,7 @@ export const projects: Project[] = [
     categoryColor: "bg-blue-100 text-blue-700",
     tags: ["Search Algorithm", "Ranking", "UX"],
     summary:
-      "Created a robust ranking algorithm for Justdial's platform exploring factors such as proximity, user ratings, responsiveness, and business verification.",
+      "What should come first in a Justdial search? Worked through how to weigh proximity, ratings, how fast a business responds, and whether it's verified.",
     slug: "optimizing-search-justdial",
     type: "case-study",
   },
@@ -104,7 +104,7 @@ export const projects: Project[] = [
     categoryColor: "bg-green-100 text-green-700",
     tags: ["Health-Tech", "GTM Strategy", "Design Thinking"],
     summary:
-      "Developed a GTM strategy worth ~$100 Mn for Atom, a wellness health-tech startup. Utilized JTBD and Design Thinking principles, assisting in a 25% WoW increase in downloads from 5K to 150K.",
+      "Six months consulting for Atom, a meditation app. Installs went from 5K to 150K at 25% week on week, mostly through better ASO and clearer product communication. Also built the monetisation strategy off 50+ hours of user interviews.",
     slug: "atom",
     type: "case-study",
   },
