@@ -14,18 +14,21 @@ const spaceGrotesk = Space_Grotesk({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://mahe1235.github.io"),
-  title: "Mahendra B — Product Manager | Fintech & SaaS",
+  title: "Mahendra B | Senior Product Manager",
   description:
-    "Product Manager with 8+ years in Fintech, SaaS & Omnichannel. IIM Ahmedabad MBA. Ex-Paytm. Currently at Nextuple building order management systems for global retailers.",
+    "Senior Product Manager with 8+ years across construction-tech, fintech and B2B SaaS. IIM Ahmedabad MBA. Currently at ARIS running Supply Operations; previously Nextuple and Paytm.",
   keywords: [
     "Mahendra B",
-    "Product Manager",
+    "Senior Product Manager",
+    "AI Product Manager",
     "Fintech Product Manager",
     "SaaS Product Manager",
     "Omnichannel",
     "IIM Ahmedabad",
     "Paytm",
     "Nextuple",
+    "ArisInfra",
+    "Supply Chain",
     "Product Management Portfolio",
     "PM Portfolio",
     "Order Management",
@@ -34,11 +37,11 @@ export const metadata: Metadata = {
   authors: [{ name: "Mahendra B", url: "https://mahe1235.github.io" }],
   creator: "Mahendra B",
   openGraph: {
-    title: "Mahendra B — Product Manager | Fintech & SaaS",
+    title: "Mahendra B | Senior Product Manager",
     description:
-      "Product Manager with 8+ years in Fintech, SaaS & Omnichannel. IIM Ahmedabad MBA. Ex-Paytm. Currently at Nextuple.",
+      "Senior Product Manager. Currently at ARIS running Supply Operations; previously Nextuple and Paytm. IIM Ahmedabad MBA.",
     url: "https://mahe1235.github.io",
-    siteName: "Mahendra B — Portfolio",
+    siteName: "Mahendra B | Portfolio",
     locale: "en_US",
     type: "website",
     images: [
@@ -46,15 +49,15 @@ export const metadata: Metadata = {
         url: "/profile.jpg",
         width: 800,
         height: 800,
-        alt: "Mahendra B — Product Manager",
+        alt: "Mahendra B, Senior Product Manager",
       },
     ],
   },
   twitter: {
     card: "summary",
-    title: "Mahendra B — Product Manager | Fintech & SaaS",
+    title: "Mahendra B | Senior Product Manager",
     description:
-      "Product Manager with 8+ years in Fintech, SaaS & Omnichannel. IIM Ahmedabad MBA. Ex-Paytm.",
+      "Senior Product Manager. Currently at ARIS; previously Nextuple and Paytm. IIM Ahmedabad MBA.",
     creator: "@mahendrab0",
     images: ["/profile.jpg"],
   },
@@ -83,10 +86,10 @@ export default function RootLayout({
               "@context": "https://schema.org",
               "@type": "Person",
               name: "Mahendra B",
-              jobTitle: "Product Manager",
+              jobTitle: "Senior Product Manager",
               url: "https://mahe1235.github.io",
               description:
-                "Product Manager with 8+ years in Fintech, SaaS & Omnichannel. Currently at Nextuple, previously at Paytm.",
+                "Senior Product Manager with 8+ years across construction-tech, fintech and B2B SaaS. Currently at ARIS, previously Nextuple and Paytm.",
               image: "https://mahe1235.github.io/profile.jpg",
               sameAs: [
                 "https://www.linkedin.com/in/mahendrabreddy/",
@@ -105,7 +108,7 @@ export default function RootLayout({
               ],
               worksFor: {
                 "@type": "Organization",
-                name: "Nextuple",
+                name: "ArisInfra Solutions",
               },
               knowsAbout: [
                 "Product Management",
