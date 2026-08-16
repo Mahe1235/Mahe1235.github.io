@@ -6,6 +6,11 @@ export interface SkillCategory {
 
 export const skillCategories: SkillCategory[] = [
   {
+    category: "Full Stack AI-Native Product",
+    emoji: "🤖",
+    skills: ["Claude Code", "MCPs for Data Analytics", "Claude Design", "Cursor", "Lovable", "Prototyping"],
+  },
+  {
     category: "Product Management",
     emoji: "🎯",
     skills: ["PRDs", "Roadmapping", "A/B Testing", "User Research", "JTBD", "Go-to-Market"],

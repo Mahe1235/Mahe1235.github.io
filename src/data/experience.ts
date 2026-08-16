@@ -7,11 +7,18 @@ export interface Experience {
 
 export const experiences: Experience[] = [
   {
+    company: "ARIS (ArisInfra Solutions)",
+    role: "Senior Product Manager",
+    period: "Mar 2026 – Present",
+    description:
+      "Own Supply Operations, leading the weighbridge integration, truck telematics and plant utilisation modules. Integrated weighbridges and truck GPS across 9 plants, putting 13,500 dispatches a month on live tracking. Launched the DaaS project health dashboard in one week, ideation to production, live on stage at the launch of India's first Developer-as-a-Service platform.",
+  },
+  {
     company: "Nextuple Inc",
     role: "Product Manager",
-    period: "Feb 2024 – Present",
+    period: "Feb 2024 – Mar 2026",
     description:
-      "Led Order Orchestrator module, revamping the system with returns flow and metrics dashboard while successfully launching the MVP for major UK grocery retailers.",
+      "Built Capacity Edge as a configurable platform rather than a one-off. Took a national furniture retailer from 60% to 76% OTIF, then onboarded two more clients with no additional engineering. Led the Order Orchestrator module and shipped Order Promising for one of the UK's largest grocery retailers.",
   },
   {
     company: "Paytm",
@@ -25,7 +32,7 @@ export const experiences: Experience[] = [
     role: "Product Manager",
     period: "Jun 2021 – Jan 2024",
     description:
-      "Led the Subscription module, built a scalable system to monetize products. Achieved 20% MoM increase in subscription revenue and increased retention by 12% through redesigning the renewal flow. Led pricing change initiative resulting in 25% revenue increase and reduced complaints by 80%.",
+      "Led the Subscription module and built a scalable system to monetize any product in the ecosystem. Doubled subscription revenue, and increased retention by 12% by redesigning the renewal flow. Led a pricing change that increased revenue 25% and cut complaints by 80%.",
   },
   {
     company: "Niyo Solutions",

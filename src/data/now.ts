@@ -7,25 +7,19 @@ export interface NowItem {
 
 export const nowItems: NowItem[] = [
   {
-    title: "AI Tools for Product Development",
+    title: "Building with AI, in the actual job",
     icon: "sparkles",
     description:
-      "Recently built a multiplayer Mafia game using AI-assisted coding with Cursor, getting back into development after years away from coding. Experimenting with tools like Lovable to streamline product specs and research analysis. These hands-on experiences show how AI can enhance our existing workflows rather than replace them.",
+      "At ARIS I do my own data pulls, prototypes and design passes. It's the reason the DaaS dashboard went from ideation to production in a week. Outside work I keep building: a multiplayer Mafia game in a weekend with Cursor, DEDUCTION with LLM-driven suspects, and ShowTrackr because I wanted it and nobody had made it the way I liked.",
     links: [
       { title: "DEDUCTION: Text-Based Murder Mystery", url: "https://www.notion.so/mahendrab/DEDUCTION-Text-Based-Murder-Mystery-a978cdb294be477f966e568861b5feb6" },
       { title: "Mafia: Real-time Multiplayer Web Game", url: "https://www.notion.so/mahendrab/Mafia-Real-time-Multiplayer-Web-Game-1ba8606b05258069a04ae8087dec64f2" },
     ],
   },
   {
-    title: "Web3 Beyond the Hype",
+    title: "Building my own PM tooling",
     icon: "globe",
     description:
-      "Researching practical applications of blockchain technologies, focusing on how they might create new models for digital ownership and value exchange. Documenting these explorations from a product perspective.",
-    links: [
-      { title: "Blockchain for PMs", url: "https://www.notion.so/mahendrab/Blockchain-for-PMs-1378606b0525802faf57e5ea298e4cab" },
-      { title: "Smart Contracts for PMs", url: "https://www.notion.so/mahendrab/Smart-Contracts-for-PMs-1388606b05258099b6a1ed453ef887bc" },
-      { title: "Core Crypto Concepts for PMs", url: "https://www.notion.so/mahendrab/Core-Crypto-Concepts-for-PMs-1998606b0525809896b3ff9ca764e2b4" },
-      { title: "DeFi Concepts for PMs", url: "https://www.notion.so/mahendrab/DeFi-Concepts-for-PMs-1a78606b05258042af0bcaccabd7841a" },
-    ],
+      "Claude Code with MCPs for the data work, Claude for prototyping, and a set of skills and agents I've put together for my own workflow. Notes from everything I read go into Obsidian as a second brain. None of it is impressive on its own, but together it's changed what I can do without asking anyone.",
   },
 ];

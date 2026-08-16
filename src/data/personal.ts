@@ -1,6 +1,6 @@
 export const personal = {
   name: "Mahendra B",
-  role: "Product Manager",
+  role: "Senior Product Manager",
   greeting: "Hello there!",
   greetings: ["Hello there!"],
   pmPhrases: [
@@ -18,14 +18,15 @@ export const personal = {
     "building a second brain in Obsidian",
   ],
   taglines: [
-    "Product Manager",
+    "Senior Product Manager",
     "Cricket Fan",
     "Podcast Addict",
     "Game Builder",
     "Wanderer",
   ],
   bio: [
-    "I got into product by building things first — started as an Android dev, helped build a logistics startup from zero, then went to IIM Ahmedabad. Since then I've doubled subscription revenue at Paytm Money, launched a loyalty program to 10 million Paytm users, and at Nextuple I've built a capacity management platform from scratch and shipped Order Promising for one of the UK's largest grocery retailers.",
+    "I got into product by building things first — started as an Android dev, helped build a logistics startup from zero, then went to IIM Ahmedabad. Since then I've doubled subscription revenue at Paytm Money, launched a loyalty program to 10 million Paytm users, and built a capacity management platform from scratch at Nextuple.",
+    "I'm now at ARIS, where I own Supply Operations — weighbridge integration, truck telematics and plant utilisation. It used to run on phone calls and Excel. Now 13,500 dispatches a month across 9 plants are on live tracking, and I'm working on generating challans off the weighbridge so billing doesn't wait a month for paper to arrive.",
   ],
   howIWork: [
     "I like starting with data and ending with users. Numbers tell you what's happening; conversations tell you why. I've learned to resist jumping into solutions before understanding the problem properly — sometimes the hard way. I have strong opinions about products, but I try to hold them loosely enough to change my mind when the evidence says I should.",
