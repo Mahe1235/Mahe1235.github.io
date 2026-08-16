@@ -3,6 +3,7 @@ export interface Experience {
   role: string;
   period: string;
   description: string;
+  links?: { label: string; url: string }[];
 }
 
 export const experiences: Experience[] = [
@@ -12,6 +13,12 @@ export const experiences: Experience[] = [
     period: "Mar 2026 – Present",
     description:
       "Own Supply Operations: weighbridge integration, truck telematics, plant utilisation. 13,500 dispatches a month across 9 plants now tracked live. Also launched the DaaS project health dashboard in a week.",
+    links: [
+      {
+        label: "RealtyNMore",
+        url: "https://realtynmore.com/arisuniterns-daas-platform-is-building/",
+      },
+    ],
   },
   {
     company: "Nextuple Inc",

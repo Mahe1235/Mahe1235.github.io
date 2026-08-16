@@ -21,8 +21,8 @@ export default function Home() {
         <main>
           <Hero />
           <About />
-          <Projects />
           <Journey />
+          <Projects />
           <Reads />
           <Podcasts />
           <Education />

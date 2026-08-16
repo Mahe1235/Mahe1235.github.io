@@ -11,7 +11,7 @@ const mainCards = projects.filter((p) => p.type === "main");
 const caseStudies = projects.filter((p) => p.type === "case-study");
 
 export default function Projects() {
-  const [caseStudiesOpen, setCaseStudiesOpen] = useState(false);
+  const [caseStudiesOpen, setCaseStudiesOpen] = useState(true);
 
   return (
     <section id="projects" className="py-24 relative overflow-hidden">
@@ -85,14 +85,14 @@ export default function Projects() {
                             </span>
                           ))}
                         </div>
-                        <div className="flex items-center gap-3">
+                        <div className="flex items-center gap-3 -my-2">
                           {project.liveUrl && (
                             <a
                               href={project.liveUrl}
                               target="_blank"
                               rel="noopener noreferrer"
                               onClick={(e) => e.stopPropagation()}
-                              className="inline-flex items-center gap-1 text-xs font-medium text-primary hover:text-secondary transition-colors duration-200"
+                              className="inline-flex items-center gap-1 min-h-[44px] py-2.5 text-xs font-medium text-primary hover:text-secondary transition-colors duration-200"
                             >
                               <span className="w-1.5 h-1.5 rounded-full bg-green-500 animate-pulse" />
                               Live App
@@ -105,7 +105,7 @@ export default function Projects() {
                               target="_blank"
                               rel="noopener noreferrer"
                               onClick={(e) => e.stopPropagation()}
-                              className="inline-flex items-center gap-1 text-xs font-medium text-muted/60 hover:text-foreground transition-colors duration-200"
+                              className="inline-flex items-center gap-1 min-h-[44px] py-2.5 text-xs font-medium text-muted/60 hover:text-foreground transition-colors duration-200"
                             >
                               <Github size={12} strokeWidth={1.5} />
                               GitHub
@@ -131,14 +131,14 @@ export default function Projects() {
           ))}
         </div>
 
-        {/* Case Studies — collapsed accordion */}
+        {/* Case Studies — expanded by default, collapsible */}
         <div className="border-t border-border/40 pt-8">
-          <div className="flex justify-center">
+          <div className="flex">
             <button
               onClick={() => setCaseStudiesOpen(!caseStudiesOpen)}
-              className="flex items-center gap-1.5 text-sm font-medium text-muted hover:text-foreground transition-colors duration-200 px-4 py-2 rounded-lg hover:bg-section-alt"
+              className="flex items-center gap-1.5 min-h-[44px] text-lg font-bold font-[family-name:var(--font-space-grotesk)] tracking-tight text-foreground hover:text-primary transition-colors duration-200 -ml-3 px-3 py-2 rounded-lg hover:bg-section-alt"
             >
-              <span>Case Studies</span>
+              <span>Case Studies ({caseStudies.length})</span>
               <motion.span
                 animate={{ rotate: caseStudiesOpen ? 180 : 0 }}
                 transition={{ duration: 0.25, ease: [0.22, 1, 0.36, 1] }}

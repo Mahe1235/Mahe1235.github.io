@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Download, ArrowRight } from "lucide-react";
+import { Download, ArrowRight, Newspaper } from "lucide-react";
 import SectionHeading from "@/components/ui/SectionHeading";
 import { experiences } from "@/data/experience";
 import { personal } from "@/data/personal";
@@ -25,9 +25,11 @@ export default function Journey() {
           <SectionHeading emoji="🗺️" title="Journey So Far" />
           <motion.a
             href={personal.resumeUrl}
+            target="_blank"
+            rel="noopener noreferrer"
             whileHover={{ scale: 1.03 }}
             whileTap={{ scale: 0.97 }}
-            className="hidden sm:inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-gradient-to-r from-primary to-secondary text-white font-medium text-sm shadow-lg shadow-primary/20 hover:shadow-xl hover:shadow-primary/30 transition-shadow duration-300 mb-12"
+            className="inline-flex self-start sm:self-auto items-center gap-2 px-5 py-3 rounded-xl bg-gradient-to-r from-primary to-secondary text-white font-medium text-sm shadow-lg shadow-primary/20 hover:shadow-xl hover:shadow-primary/30 transition-shadow duration-300"
           >
             <Download size={16} strokeWidth={1.5} />
             Resume
@@ -76,6 +78,23 @@ export default function Journey() {
                   <p className="text-gradient font-semibold text-sm inline-block">{exp.role}</p>
                   <p className="text-muted/60 text-xs mb-3 font-medium">{exp.period}</p>
                   <p className="text-muted text-sm leading-relaxed">{highlightMetrics(exp.description)}</p>
+
+                  {exp.links && (
+                    <div className={`flex flex-wrap gap-2 mt-4 ${i % 2 === 0 ? "md:justify-end" : ""}`}>
+                      {exp.links.map((link) => (
+                        <a
+                          key={link.url}
+                          href={link.url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="inline-flex items-center gap-1.5 min-h-[44px] text-xs px-3 py-1.5 rounded-full bg-section-alt text-muted border border-border/50 font-medium hover:text-primary hover:border-primary/30 transition-colors"
+                        >
+                          <Newspaper size={12} strokeWidth={1.5} />
+                          {link.label}
+                        </a>
+                      ))}
+                    </div>
+                  )}
                 </div>
               </div>
             </motion.div>
