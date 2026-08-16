@@ -19,7 +19,7 @@ export default function Podcasts() {
   return (
     <section id="podcasts" className="py-24">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        <SectionHeading emoji="🎧" title="Podcasts I Enjoy" subtitle="My go-to shows for learning and inspiration" />
+        <SectionHeading emoji="🎧" title="Podcasts I Enjoy" subtitle="What I actually listen to" />
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
           {podcasts.map((podcast, i) => (

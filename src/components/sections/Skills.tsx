@@ -8,7 +8,7 @@ export default function Skills() {
   return (
     <section id="skills" className="py-24">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-        <SectionHeading emoji="🛠️" title="Toolkit" subtitle="Skills and competencies" />
+        <SectionHeading emoji="🛠️" title="Toolkit" />
 
         <div className="grid sm:grid-cols-2 gap-5">
           {skillCategories.map((cat, i) => (

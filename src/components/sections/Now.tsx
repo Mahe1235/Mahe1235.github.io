@@ -14,7 +14,7 @@ export default function Now() {
   return (
     <section id="now" className="py-24">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        <SectionHeading emoji="🔥" title="What I'm Excited About Now" subtitle="Current explorations and interests" />
+        <SectionHeading emoji="🔥" title="What I'm Excited About Now" />
 
         <div className="grid md:grid-cols-2 gap-6">
           {nowItems.map((item, i) => (

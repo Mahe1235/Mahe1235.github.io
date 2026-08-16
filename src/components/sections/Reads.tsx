@@ -10,7 +10,7 @@ export default function Reads() {
       <div className="absolute inset-0 bg-dots opacity-[0.02]" />
 
       <div className="relative max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        <SectionHeading emoji="📚" title="Notes from Good Reads" subtitle="Product thinking, frameworks, and mental models" />
+        <SectionHeading emoji="📚" title="Notes from Good Reads" subtitle="Notes I took and still go back to" />
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3">
           {reads.map((read, i) => (
