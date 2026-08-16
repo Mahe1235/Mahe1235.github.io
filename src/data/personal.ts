@@ -40,5 +40,5 @@ export const personal = {
     github: "https://github.com/Mahe1235",
     email: "mahendrab1094@gmail.com",
   },
-  resumeUrl: "https://drive.google.com/file/d/1dCRxhqNKsEcJf1v4NzPfviYiLw8vx91F/view?usp=sharing",
+  resumeUrl: "https://drive.google.com/file/d/1LBVAF60jgZOMP0GSg5EFJcIaOJEOXIUI/view?usp=sharing",
 };
