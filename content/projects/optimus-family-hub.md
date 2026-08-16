@@ -1,7 +1,7 @@
 ---
 title: "Optimus Family Hub"
 date: "2024-06-15"
-description: "Product strategy for a neobanking app expanding from individual to family banking. Developed comprehensive user research, market analysis, phased implementation roadmap, and validation frameworks for multi-generational Indian households."
+description: "How a neobank moves from individual accounts to family ones, for multi-generational Indian households. Research, prioritisation, a phased roadmap, PRDs and working prototypes. Built solo in 6 hours with Claude, Perplexity and v0."
 emoji: "🏦"
 tags: ["Neobanking", "User Research", "Product Strategy"]
 category: "Case Study"

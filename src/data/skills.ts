@@ -28,6 +28,6 @@ export const skillCategories: SkillCategory[] = [
   {
     category: "Engineering",
     emoji: "⚙️",
-    skills: ["Agile/Scrum", "JIRA", "Confluence", "Android SDK", "API Design"],
+    skills: ["APIs", "System Design", "Telemetry Integrations", "Android SDK", "Agile/Scrum", "JIRA"],
   },
 ];

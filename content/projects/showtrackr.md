@@ -1,7 +1,7 @@
 ---
 title: "ShowTrackr — Personal TV Show Tracker"
 date: "2025-01-15"
-description: "A personal TV show tracking web app built with Next.js, Supabase, and the TVMaze API. Search thousands of shows, track your watchlist, and discover trending content — all free, no ads."
+description: "Track TV shows and what you're watching. Built on the TVMaze API with Next.js, Supabase and TypeScript."
 emoji: "🎬"
 tags: ["Next.js", "Supabase", "TVMaze API", "TypeScript"]
 category: "Side Project"

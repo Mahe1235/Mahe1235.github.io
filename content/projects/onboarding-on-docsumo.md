@@ -1,7 +1,7 @@
 ---
 title: "Onboarding on Docsumo"
 date: "2024-05-01"
-description: "Enhanced user onboarding for Docsumo by identifying target audience, creating user segments based on document types, and defining the JTBD for personas during the trial period."
+description: "Getting Docsumo's trial users to actually activate. Segmented them by the documents they process, then worked out what each one is really hiring the trial to do."
 emoji: "📄"
 tags: ["Onboarding", "User Segments", "JTBD"]
 category: "Case Study"

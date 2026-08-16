@@ -34,7 +34,7 @@ export const projects: Project[] = [
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["LLM", "AI", "Game"],
     summary:
-      "A murder mystery game powered by LLMs. You interrogate AI suspects to solve the case. Built it to learn how LLMs handle open-ended conversation and how to keep them in character. Turns out, prompt engineering for a game is a surprisingly good way to learn prompt engineering for everything else.",
+      "A murder mystery game powered by LLMs. You interrogate AI suspects to solve the case. Built it to learn how LLMs handle open-ended conversation and how to keep them in character.",
     slug: "deduction-murder-mystery",
     githubUrl: "https://github.com/Mahe1235/murder-mystery",
     type: "main",
@@ -46,7 +46,7 @@ export const projects: Project[] = [
     categoryColor: "bg-purple-100 text-purple-700",
     tags: ["AI", "Vibe Coding", "Multiplayer"],
     summary:
-      "A multiplayer Mafia game I built after not writing code for 5 years. Used Cursor and Lovable to go from idea to working game in a weekend. This was the project that convinced me PMs who can build with AI tools have a real edge.",
+      "A multiplayer Mafia game I built after not writing code for 5 years. Used Cursor and Lovable to go from idea to working game in a weekend. Mostly to stay close enough to the build to work well with engineers.",
     slug: "mafia-multiplayer-game",
     githubUrl: "https://github.com/Mahe1235/mafia-game",
     type: "main",

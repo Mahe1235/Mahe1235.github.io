@@ -52,12 +52,10 @@ export default function Contact() {
         >
           <span className="text-6xl block mb-6">☕</span>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold font-[family-name:var(--font-space-grotesk)] tracking-tight mb-4">
-            Let&apos;s Connect &{" "}
-            <span className="text-gradient">Share Ideas!</span>
+            Let&apos;s <span className="text-gradient">Connect</span>
           </h2>
           <p className="text-lg md:text-xl text-muted mb-12 max-w-xl mx-auto leading-relaxed">
-            Always up for a good conversation about products, tech, cricket, or
-            anything interesting. Reach out!
+            Always up for a conversation about products, tech or cricket.
           </p>
         </motion.div>
 

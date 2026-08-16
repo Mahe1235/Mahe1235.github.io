@@ -1,7 +1,7 @@
 ---
 title: "Atom"
 date: "2024-01-01"
-description: "Developed a GTM strategy worth ~$100 Mn for Atom, a wellness health-tech startup. Utilized JTBD and Design Thinking principles, assisting in a 25% WoW increase in downloads from 5K to 150K."
+description: "Six months consulting for Atom, a meditation app. Installs went from 5K to 150K at 25% week on week, mostly through better ASO and clearer product communication. Also built the monetisation strategy off 50+ hours of user interviews."
 emoji: "🧬"
 tags: ["Health-Tech", "GTM Strategy", "Design Thinking"]
 category: "Consulting"

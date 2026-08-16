@@ -1,7 +1,7 @@
 ---
 title: "DEDUCTION: Text-Based Murder Mystery"
 date: "2024-08-01"
-description: "A text-based murder mystery game leveraging LLMs to create dynamic characters with natural dialogue systems. Players solve 'The Manor Murder' through investigation and deduction."
+description: "A murder mystery game powered by LLMs. You interrogate AI suspects to solve the case. Built it to learn how LLMs handle open-ended conversation and how to keep them in character."
 emoji: "🔍"
 tags: ["LLM", "Interactive Storytelling", "AI"]
 category: "Game"

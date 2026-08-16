@@ -107,7 +107,7 @@ export default function Hero() {
           className="mb-7"
         >
           <p className="text-sm sm:text-base text-muted/50 tracking-wide">
-            Fintech &middot; B2B SaaS &middot; 8+ Years &middot; IIM Ahmedabad
+            Construction-tech &middot; Fintech &middot; 8+ Years &middot; IIM Ahmedabad
           </p>
         </motion.div>
 

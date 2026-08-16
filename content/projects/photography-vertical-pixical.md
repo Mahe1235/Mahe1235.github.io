@@ -1,7 +1,7 @@
 ---
 title: "Photography Vertical at Pixical"
 date: "2024-04-01"
-description: "Launched a photography vertical at Pixical targeting beginner hobbyists. A three-month roadmap addressing pain points like structured guidance and personalized feedback."
+description: "A photography vertical for beginners who want to get better but don't know what to practise. Three-month roadmap built around structured guidance, personalised feedback and something to show for it."
 emoji: "📸"
 tags: ["EdTech", "Product Roadmap", "User Research"]
 category: "Case Study"

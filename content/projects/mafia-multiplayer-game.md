@@ -1,7 +1,7 @@
 ---
 title: "Mafia: Real-time Multiplayer Web Game"
 date: "2024-09-01"
-description: "Built with AI-assisted coding using Cursor after a 5-year coding hiatus. A real-time multiplayer web game that demonstrates the power of AI tools in hands-on development."
+description: "A multiplayer Mafia game I built after not writing code for 5 years. Used Cursor and Lovable to go from idea to working game in a weekend."
 emoji: "🎭"
 tags: ["AI-Assisted Coding", "Multiplayer", "WebSockets"]
 category: "Game"

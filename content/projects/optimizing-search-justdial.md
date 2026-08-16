@@ -1,7 +1,7 @@
 ---
 title: "Optimizing Search Results for Justdial"
 date: "2024-03-01"
-description: "Created a robust ranking algorithm for Justdial's platform exploring factors such as proximity, user ratings, responsiveness, and business verification."
+description: "What should come first in a Justdial search? Worked through how to weigh proximity, ratings, how fast a business responds, and whether it's verified."
 emoji: "🔎"
 tags: ["Search Algorithm", "Ranking", "UX"]
 category: "Case Study"
