@@ -21,7 +21,7 @@ export const projects: Project[] = [
     categoryColor: "bg-orange-100 text-orange-700",
     tags: ["Next.js", "Supabase", "TVMaze API", "TypeScript"],
     summary:
-      "A simple app to track TV shows and what you're watching. Nothing groundbreaking. Just a thing I wanted and decided to build.",
+      "Track TV shows and what you're watching. Built on the TVMaze API with Next.js, Supabase and TypeScript.",
     slug: "showtrackr",
     liveUrl: "https://show-trackr-ten.vercel.app/",
     githubUrl: "https://github.com/Mahe1235/ShowTrackr",
